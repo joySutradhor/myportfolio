@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+    .heroVideo{
+        @apply w-[100%] object-cover h-[100vh]
+    }
+    .heroWrapper {
+        @apply relative
+    }
+    
+    .overlay {
+        @apply absolute top-0 left-0 w-[100%] h-[100%] bg-[#00000070]
+
+    }
+}
