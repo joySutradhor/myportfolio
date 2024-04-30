@@ -1,0 +1,35 @@
+================================= PortFolio Documentations ==========================
+
+#Folder Structure : 
+
+*Src 
+  - Pages 
+        
+        - Header :
+                - Header.jsx -- "This folder render a video from cloudinary and call HeaderContent"
+                - HeaderContent.jsx -- "In this file reander a sytext highligher to show my code "
+        
+        - AboutMe :
+                - AboutMe.jsx --"This page write for me in details"         
+
+
+
+
+
+
+================================= Project npm Packages Install ==========================
+
+"localforage": "^1.10.0",
+"match-sorter": "^6.3.4",
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-icons": "^5.1.0",
+"react-router-dom": "^6.23.0",
+"react-syntax-highlighter": "^15.5.0",
+"sort-by": "^1.2.0",
+"react-icons": "^5.1.0",        
+
+                                                          
+
+
+                        

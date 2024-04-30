@@ -4,16 +4,39 @@
 
 
 
+::-moz-selection {
+    background: #14532D;
+  }
+  ::-webkit-selection {
+    background: #14532D;
+  }
+  ::selection {
+    background: #14532D;
+  }
+
 @layer utilities {
-    .heroVideo{
+
+    /* =============== common styles Here =============== */
+
+    /* =============== Hero Section Styles Here =============== */
+    .heroVideo {
         @apply w-[100%] object-cover h-[100vh]
     }
+
     .heroWrapper {
         @apply relative
     }
-    
+
     .overlay {
         @apply absolute top-0 left-0 w-[100%] h-[100%] bg-[#00000070]
+    }
 
+    /* ------------- Header Content sections styles ------------- */
+    .lightParent{
+        @apply flex space-x-1
+    }
+    .light {
+        @apply
+        h-[15px] w-[15px] rounded-full
     }
 }

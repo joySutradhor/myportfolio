@@ -1,3 +1,4 @@
+import HeaderContent from "./HeaderContent";
 
 
 
@@ -15,6 +16,9 @@ const Header = () => {
             
             {/* =========== overlay video =========== */}
             <div className="overlay"></div>
+
+            {/* =========== Code Editor section =========== */}
+            <HeaderContent></HeaderContent>
         </div>
     );
 };
