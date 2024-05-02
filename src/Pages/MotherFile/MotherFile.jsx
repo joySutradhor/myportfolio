@@ -3,7 +3,9 @@ import Header from './../Header/Header';
 
 const MotherFile = () => {
   return (
-      <Header></Header>   
+    <div className='bg-[#010000]'>
+      <Header></Header>
+    </div>
   );
 };
 

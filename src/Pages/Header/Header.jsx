@@ -8,7 +8,7 @@ const Header = () => {
             {/* =========== Hero section video player =========== */}
             <video
                 className="heroVideo"
-                src="https://res.cloudinary.com/dbq3boaji/video/upload/v1714419210/Joy%20sutradhor-portfolio/Developer_Coding_Background_ezrxjd.mp4"
+                src="https://res.cloudinary.com/dbq3boaji/video/upload/v1714683105/Joy%20sutradhor-portfolio/joySutradhorHero_tdfepe.mp4"
                 loop
                 autoPlay
                 muted

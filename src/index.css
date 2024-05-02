@@ -20,7 +20,7 @@
 
     /* =============== Hero Section Styles Here =============== */
     .heroVideo {
-        @apply w-[100%] object-cover h-[100vh]
+        @apply w-[100%] object-right-bottom h-[100vh]
     }
 
     .heroWrapper {
