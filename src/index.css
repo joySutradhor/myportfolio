@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,6 +18,19 @@
 @layer utilities {
 
     /* =============== common styles Here =============== */
+    .mainHeading{
+        @apply text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] xl:text-[20px] 2xl:text-[60px]
+
+        /* -------- common styles ----------- */
+        text-gray-200 font-title font-semibold
+    }
+
+    .secondaryHeading{
+        @apply xl:text-[12px] 
+
+        /* ---------- common styles ----------- */
+        text-gray-300 font-title font-medium
+    }
 
     /* =============== Hero Section Styles Here =============== */
     .heroVideo {
@@ -38,5 +52,17 @@
     .light {
         @apply
         h-[15px] w-[15px] rounded-full
+    }
+
+    /* ========== Modalcontent styles here  ==================== */
+    .modalParent{
+        @apply xl:w-full xl:h-[100dvh] xl:px-[55px]
+
+        /* --- common sytes here ---- */
+        absolute top-0 left-0  bg-black  bg-opacity-40
+    }
+
+    .gameParent{
+        @apply xl:grid xl:grid-cols-2 xl:space-x-[50px] xl:pt-[50px] 
     }
 }
